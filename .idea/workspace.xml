@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="464db16d-6e60-4910-b24b-74c7347dbd98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="464db16d-6e60-4910-b24b-74c7347dbd98" name="Changes" comment="вызов методов будет выглядеть как вызов паблик статик метода в джава. Все &#10;потому что по сути своей мы и не создаем обьекта типа Singleton в котлин. У нас будто бы хранилище данных. Но мы точно знаем что обращаясь к методам этого класса мы будем иметь дело с одними и теми же переменными внутри этого класса.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +15,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +47,24 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="ObjectInKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,11 +73,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677643162585</updated>
-      <workItem from="1677643164152" duration="1361000" />
+      <workItem from="1677643164152" duration="14018000" />
     </task>
+    <task id="LOCAL-00001" summary="вызов методов будет выглядеть как вызов паблик статик метода в джава. Все &#10;потому что по сути своей мы и не создаем обьекта типа Singleton в котлин. У нас будто бы хранилище данных. Но мы точно знаем что обращаясь к методам этого класса мы будем иметь дело с одними и теми же переменными внутри этого класса.">
+      <created>1677645787336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677645787336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="вызов методов будет выглядеть как вызов паблик статик метода в джава. Все &#10;потому что по сути своей мы и не создаем обьекта типа Singleton в котлин. У нас будто бы хранилище данных. Но мы точно знаем что обращаясь к методам этого класса мы будем иметь дело с одними и теми же переменными внутри этого класса." />
+    <option name="LAST_COMMIT_MESSAGE" value="вызов методов будет выглядеть как вызов паблик статик метода в джава. Все &#10;потому что по сути своей мы и не создаем обьекта типа Singleton в котлин. У нас будто бы хранилище данных. Но мы точно знаем что обращаясь к методам этого класса мы будем иметь дело с одними и теми же переменными внутри этого класса." />
   </component>
 </project>
